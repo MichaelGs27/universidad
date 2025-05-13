@@ -1,0 +1,23 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+
+.one{
+    border: 2px solid chartreuse;
+    border-top-left-radius: 87px;
+    border-top-right-radius: 87px;
+}
+.two{
+    border-color: rgb(19, 196, 107);
+    border-style:dotted;
+    border-top: 1px solid  rgb(196, 90, 19);
+}
+.three{
+    border-color: rgb(27, 69, 206);
+    border-style: double;
+}
+.four{
+    border-color: rgb(226, 43, 211);
+    border-style:groove;
+}

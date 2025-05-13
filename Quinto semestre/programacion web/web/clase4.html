@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="">
+        <!-- Label = etiquetas, input text= entrada de texto -->
+        <label for="fname">Nombre</label>
+        <input type="text" name="fname" id="Nombre"> <br>
+        <label for="fapellido">Apellido</label>
+        <input type="text" name="fapellido" id="Apellido"><br>
+        <label for="ftelefono">Telefono</label>
+        <input type="text" name="ftelefono" id="Telefono"> <br>
+        <!-- Input radio -->
+        <input type="radio" name="pais" value="Canada">
+        <label for="ftelefono">Canada</label>
+        <input type="radio" name="pais" value="EEUU">
+        <label for="ftelefono">EEUU</label>
+        <input type="radio" name="pais" value="Francia">
+        <label for="ftelefono">Francia</label>
+        <br>
+        <input type="radio" name="LATAM" value="Colombia">
+        <label for="ftelefono">Colombia</label>
+        <input type="radio" name="LATAM" value="Argentina">
+        <label for="ftelefono">Argentina</label>
+        <input type="radio" name="LATAM" value="Ecuador">
+        <label for="ftelefono">Ecuador</label>
+
+        <!-- Checkbox -->
+        <br>
+        <input type="checkbox" name="vehiculo1" value="bicicleta">
+        <label for="ftelefono">Bicicleta</label> <br>
+        <input type="checkbox" name="vehiculo2" value="moto">
+        <label for="ftelefono">Moto</label> <br>
+        <input type="checkbox" name="vehiculo3" value="carro">
+        <label for="ftelefono">Carro</label> <br>
+        <!-- Select -->
+         <select name="Facultad" id="" size="3">
+                <option value="">---Seleccionar---</option>
+                <option value="IngenieriaDeSistemas">Ingenieria de sistemas</option>
+                <option value="AdministracionDeEmpresas">Administracion de empresas</option>
+                <option value="DiseñoGrafico">Diseño grafico</option>
+                <option value="Contaduria">Contaduria</option>
+         </select> <br>
+         <!-- textarea -->
+          <textarea name="descripcion" id="" cols="30" rows="10">
+
+          </textarea>
+          <textarea name="descripcion" style="width: 200px; height: 150px;">
+
+          </textarea>
+          <button type="button"onclick="alert('Hello World!')">Click Me!</button>
+         <input type="submit"  value="enviar">
+
+    </form>
+</body>
+
+</html>

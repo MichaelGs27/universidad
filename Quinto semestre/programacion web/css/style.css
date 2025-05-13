@@ -1,0 +1,20 @@
+div {
+    width: 500px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+/* se crea una clase, con un punto, clases=varios elementos, id=solo un elemento*/
+.bgRed{
+    background-color: red;
+}
+.bgBlue{
+    background-color: rgb(67, 7, 248);
+}
+/* El i solo va para un elemento */
+#primerlondon{
+    font-weight: bold;
+}
+
+.cambio{
+    font-size: 60px;
+}

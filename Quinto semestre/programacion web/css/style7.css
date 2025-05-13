@@ -1,0 +1,32 @@
+/*div{
+    position: fixed;
+    left: 30px;
+    border: 3px solid rgb(38, 228, 38);
+    bottom: 0;
+    width: 300px;
+    right: 0;
+} */
+
+.padre{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid greenyellow;
+}
+.hijo{
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    border: 2px solid rgb(74, 41, 146);
+} 
+.Fisss{
+    position: sticky;
+    top: 0;
+    right: 10px;
+    background-color: rgb(45, 208, 45);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50%;
+    text-decoration: none;
+}

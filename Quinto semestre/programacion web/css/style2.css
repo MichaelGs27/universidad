@@ -1,0 +1,16 @@
+.btn{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    padding: 3px 6px 3px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease ;
+}
+body{
+    background-color: cadetblue;
+}
+.btn:hover{
+    background-color: rgb(179, 12, 12);
+    color: black;
+}

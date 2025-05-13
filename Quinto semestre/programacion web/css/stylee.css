@@ -1,0 +1,21 @@
+h1{
+    color: rgb(200, 27, 119);
+    font-size: 30px;
+}
+p.Ejemplo{
+    color: rgb(11, 115, 219);
+}
+h1.Ejemplo{
+    color: rgb(11, 115, 219);
+}
+*{
+    text-align: center;
+}
+h1,p,div{
+    background-color: rgb(195, 237, 227);
+}
+.container>div>a{
+    color: rgb(176, 24, 24);
+    font-size: large;
+    text-decoration: none;
+}
