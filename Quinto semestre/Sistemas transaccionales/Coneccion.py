@@ -101,6 +101,16 @@ try:
         """
         cursor.execute(create_table_momento)
         print("Tabla Momento creada exitosamente o ya existe.")
+        # Crear tabla tipo id
+        create_table_tipos_id = """ 
+        CREATE TABLE IF NOT EXISTS tiposid(
+            cTipoId VARCHAR(2),
+            cDescripcionTipoId VARCHAR(100) NOT NULL,
+            PRIMARY KEY (cTipoId)
+        )
+        """
+        cursor.execute(create_table_tipos_id)
+        print("Tabla tipo id creada exitosamente o ya existe.")
         # Crear tabla Docente con llave foránea a Genero
         create_table_docente = """ 
         CREATE TABLE IF NOT EXISTS Docente(
